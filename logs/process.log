@@ -1,0 +1,143 @@
+2024-07-23 14:55:50,333 - INFO - Starting main process
+2024-07-23 14:55:50,333 - INFO - Starting to clean data from /Users/fahadkiani/Desktop/development/celonis/input/raw.txt
+2024-07-23 14:56:16,585 - INFO - Starting main process
+2024-07-23 14:56:16,585 - INFO - Starting to clean data from /Users/fahadkiani/Desktop/development/celonis/input/raw.txt
+2024-07-23 14:56:16,619 - INFO - Data has been cleaned and saved to /Users/fahadkiani/Desktop/development/celonis/cleaned_data.csv
+2024-07-23 14:56:16,621 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/input/raw.txt to /Users/fahadkiani/Desktop/development/celonis/unprocessed/raw.txt
+2024-07-23 14:56:16,621 - INFO - Invoking clean_data2.py script
+2024-07-23 14:56:17,329 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/cleaned_data.csv to /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_data.csv
+2024-07-23 14:56:17,329 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_processed_claims_data_comprehensive.csv to /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_processed_claims_data_comprehensive.csv
+2024-07-23 14:56:17,345 - INFO - Initializing Celonis connection
+2024-07-23 14:56:17,976 - INFO - HTTP Request: GET https://pypi.celonis.cloud/pycelonis/ "HTTP/1.1 200 OK"
+2024-07-23 14:56:18,828 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 200 OK"
+2024-07-23 14:56:18,831 - WARNING - KeyType is not set. Defaulted to 'APP_KEY'.
+2024-07-23 14:56:19,100 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 200 OK"
+2024-07-23 14:56:19,102 - INFO - Initial connect successful! PyCelonis Version: 2.9.0
+2024-07-23 14:56:19,474 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud/permissions "HTTP/1.1 200 OK"
+2024-07-23 14:56:19,479 - INFO - `task-mining` permissions: []
+2024-07-23 14:56:19,479 - INFO - `team` permissions: []
+2024-07-23 14:56:19,479 - INFO - `transformation-center` permissions: []
+2024-07-23 14:56:19,479 - INFO - `storage-manager` permissions: []
+2024-07-23 14:56:19,479 - INFO - `event-collection` permissions: ['EDIT_ALL_DATA_POOLS_RESTRICTED', 'USE_ALL_DATA_MODELS', '$ACCESS_CHILD', 'VIEW_ALL_DATA_POOLS', 'CREATE_DATA_POOL', 'EDIT_ALL_DATA_POOLS']
+2024-07-23 14:56:19,479 - INFO - `ml-workbench` permissions: []
+2024-07-23 14:56:19,479 - INFO - `package-manager` permissions: []
+2024-07-23 14:56:19,480 - INFO - `transformation-hub` permissions: []
+2024-07-23 14:56:19,480 - INFO - `compute-live` permissions: []
+2024-07-23 14:56:19,480 - INFO - `action-engine` permissions: []
+2024-07-23 14:56:19,480 - INFO - `process-repository` permissions: []
+2024-07-23 14:56:19,480 - INFO - `user-provisioning` permissions: []
+2024-07-23 14:56:19,480 - INFO - `workflows` permissions: []
+2024-07-23 14:56:19,618 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/team "HTTP/1.1 200 OK"
+2024-07-23 14:56:19,623 - INFO - Pushing data to Celonis
+2024-07-23 14:56:19,763 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools "HTTP/1.1 200 OK"
+2024-07-23 14:56:19,770 - INFO - Found existing data pool: test1
+2024-07-23 14:56:19,770 - INFO - Creating new table 'TestTable_20240723_145619' in data pool 'test1'.
+2024-07-23 14:56:22,035 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-23 14:56:22,039 - WARNING - STRING columns are by default stored as VARCHAR(80) and therefore cut after 80 characters. You can specify a custom field length for each column using the `column_config` parameter.
+2024-07-23 14:56:22,237 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/ "HTTP/1.1 200 OK"
+2024-07-23 14:56:22,239 - INFO - Successfully created data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:22,239 - INFO - Add data frame as file chunks to data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:22,729 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3/chunks/upserted "HTTP/1.1 200 OK"
+2024-07-23 14:56:22,730 - INFO - Successfully upserted file chunk to data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:22,965 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:23,180 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:23,180 - INFO - Successfully triggered execution for data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:23,180 - INFO - Wait for execution of data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:23,310 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:23,572 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:24,047 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:25,083 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:25,208 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:25,212 - INFO - Successfully created table 'TestTable_20240723_145619' in data pool
+2024-07-23 14:56:25,355 - INFO - HTTP Request: DELETE https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/2b4c2a32-8f71-4858-9708-4c945a259bc3 "HTTP/1.1 200 OK"
+2024-07-23 14:56:25,357 - INFO - Successfully deleted data push job with id '2b4c2a32-8f71-4858-9708-4c945a259bc3'
+2024-07-23 14:56:27,644 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-23 14:56:27,797 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/ "HTTP/1.1 200 OK"
+2024-07-23 14:56:27,799 - INFO - Successfully created data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:27,800 - INFO - Add data frame as file chunks to data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:28,280 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d/chunks/upserted "HTTP/1.1 200 OK"
+2024-07-23 14:56:28,280 - INFO - Successfully upserted file chunk to data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:28,417 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:28,615 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:28,616 - INFO - Successfully triggered execution for data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:28,616 - INFO - Wait for execution of data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:28,760 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:29,062 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:29,497 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:30,688 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:30,816 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:30,963 - INFO - HTTP Request: DELETE https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/b49be0d6-9fc7-485a-9fae-22ae9824944d "HTTP/1.1 200 OK"
+2024-07-23 14:56:30,964 - INFO - Successfully deleted data push job with id 'b49be0d6-9fc7-485a-9fae-22ae9824944d'
+2024-07-23 14:56:30,964 - INFO - Successfully appended rows to table 'TestTable_20240723_145619' in data pool
+2024-07-23 14:56:30,964 - INFO - Data successfully pushed to new table test1.TestTable_20240723_145619
+2024-07-24 11:46:32,189 - INFO - Starting main process
+2024-07-24 11:46:32,189 - INFO - Starting to clean data from /Users/fahadkiani/Desktop/development/celonis/input/raw.txt
+2024-07-24 11:46:32,226 - INFO - Data has been cleaned and saved to /Users/fahadkiani/Desktop/development/celonis/cleaned_data.csv
+2024-07-24 11:46:32,228 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/input/raw.txt to /Users/fahadkiani/Desktop/development/celonis/unprocessed/raw.txt
+2024-07-24 11:46:32,228 - INFO - Invoking clean_data2.py script
+2024-07-24 11:46:32,904 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/cleaned_data.csv to /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_data.csv
+2024-07-24 11:46:32,904 - INFO - Successfully moved /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_processed_claims_data_comprehensive.csv to /Users/fahadkiani/Desktop/development/celonis/processed/cleaned_processed_claims_data_comprehensive.csv
+2024-07-24 11:46:32,924 - INFO - Initializing Celonis connection
+2024-07-24 11:46:33,319 - INFO - HTTP Request: GET https://pypi.celonis.cloud/pycelonis/ "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,047 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,047 - WARNING - KeyType is not set. Defaulted to 'APP_KEY'.
+2024-07-24 11:46:34,327 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,328 - INFO - Initial connect successful! PyCelonis Version: 2.9.0
+2024-07-24 11:46:34,721 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud/permissions "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,725 - INFO - `task-mining` permissions: []
+2024-07-24 11:46:34,725 - INFO - `team` permissions: []
+2024-07-24 11:46:34,725 - INFO - `transformation-center` permissions: []
+2024-07-24 11:46:34,726 - INFO - `storage-manager` permissions: []
+2024-07-24 11:46:34,726 - INFO - `event-collection` permissions: ['EDIT_ALL_DATA_POOLS_RESTRICTED', 'USE_ALL_DATA_MODELS', '$ACCESS_CHILD', 'VIEW_ALL_DATA_POOLS', 'CREATE_DATA_POOL', 'EDIT_ALL_DATA_POOLS']
+2024-07-24 11:46:34,726 - INFO - `ml-workbench` permissions: []
+2024-07-24 11:46:34,726 - INFO - `package-manager` permissions: []
+2024-07-24 11:46:34,726 - INFO - `transformation-hub` permissions: []
+2024-07-24 11:46:34,726 - INFO - `compute-live` permissions: []
+2024-07-24 11:46:34,726 - INFO - `action-engine` permissions: []
+2024-07-24 11:46:34,726 - INFO - `process-repository` permissions: []
+2024-07-24 11:46:34,726 - INFO - `user-provisioning` permissions: []
+2024-07-24 11:46:34,726 - INFO - `workflows` permissions: []
+2024-07-24 11:46:34,842 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/team "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,844 - INFO - Pushing data to Celonis
+2024-07-24 11:46:34,967 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools "HTTP/1.1 200 OK"
+2024-07-24 11:46:34,971 - INFO - Found existing data pool: test1
+2024-07-24 11:46:34,971 - INFO - Creating new table 'TestTable_20240724_114634' in data pool 'test1'.
+2024-07-24 11:46:38,319 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-24 11:46:38,321 - WARNING - STRING columns are by default stored as VARCHAR(80) and therefore cut after 80 characters. You can specify a custom field length for each column using the `column_config` parameter.
+2024-07-24 11:46:38,474 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/ "HTTP/1.1 200 OK"
+2024-07-24 11:46:38,474 - INFO - Successfully created data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:38,475 - INFO - Add data frame as file chunks to data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:39,330 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603/chunks/upserted "HTTP/1.1 200 OK"
+2024-07-24 11:46:39,331 - INFO - Successfully upserted file chunk to data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:39,497 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:39,721 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:39,721 - INFO - Successfully triggered execution for data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:39,722 - INFO - Wait for execution of data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:39,863 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:40,093 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:40,522 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:41,562 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:43,709 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:43,840 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:43,841 - INFO - Successfully created table 'TestTable_20240724_114634' in data pool
+2024-07-24 11:46:43,968 - INFO - HTTP Request: DELETE https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/d9e80f7d-c892-423c-b600-d0f81a5aa603 "HTTP/1.1 200 OK"
+2024-07-24 11:46:43,969 - INFO - Successfully deleted data push job with id 'd9e80f7d-c892-423c-b600-d0f81a5aa603'
+2024-07-24 11:46:46,538 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-24 11:46:46,679 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/ "HTTP/1.1 200 OK"
+2024-07-24 11:46:46,680 - INFO - Successfully created data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:46,681 - INFO - Add data frame as file chunks to data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:46,988 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311/chunks/upserted "HTTP/1.1 200 OK"
+2024-07-24 11:46:46,989 - INFO - Successfully upserted file chunk to data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:47,117 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:47,370 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:47,371 - INFO - Successfully triggered execution for data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:47,371 - INFO - Wait for execution of data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:47,504 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:47,728 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:48,164 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:49,200 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:49,346 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:49,491 - INFO - HTTP Request: DELETE https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/40c9d83f-844b-4774-94f7-9d61840c8311 "HTTP/1.1 200 OK"
+2024-07-24 11:46:49,491 - INFO - Successfully deleted data push job with id '40c9d83f-844b-4774-94f7-9d61840c8311'
+2024-07-24 11:46:49,492 - INFO - Successfully appended rows to table 'TestTable_20240724_114634' in data pool
+2024-07-24 11:46:49,492 - INFO - Data successfully pushed to new table test1.TestTable_20240724_114634

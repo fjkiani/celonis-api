@@ -1,0 +1,43 @@
+Part 2 – Data Pipeline (Coding)
+For the claims data, the customer, Acme Health, has now given you below sample flat file export and have asked you to evaluate, whether and how this file can be imported into
+Celonis Platform.
+
+Please provide a short overview of available options.
+
+
+## Manual File Upload
+-For more control over the import process, you can use the manual file upload method:
+-Go to Data Integration and select or create a data pool
+-Click "Connect to Data Source" or "Upload Files"
+-Upload the claims data file (supports various formats including CSV, XLSX, JSON)
+-Configure the upload settings and data schema
+-Import the data and create a data job to use it productively
+
+## Quickstarts Import
+-This is the simplest and most user-friendly option for importing CSV or XLSX files. It's ideal for smaller datasets and provides an automated process:
+-Run Quickstarts and select the CSV/XLSX file tile
+-Upload the claims data file
+-Verify and adjust data types if necessary
+-Identify key columns (Case ID, Activity name, Timestamp)
+-Let Quickstarts process the data automatically
+
+
+## API Integration
+-For larger datasets or automated imports, you might consider using Celonis API methods, which was used for this project
+
+
+Please write a short python snippet that reads the data and delivers it to the Celonis
+-Data Push API. The code should be handed over to ACME’s security architect for a short
+review, so please make sure to keep your code clean and documented.
+-As a bonus goal, you could show the loaded data in an analysis in Celonis Platform – if
+that doesn’t work out,
+don’t worry! The main goal of this exercise is to connect the data to Celonis, and provide
+the ACME a way of potentially troubleshooting the script if/when necessary (logging).
+● Your solution must contain
+1. Management of unprocessed/processed raw data file (Raw data).
+2. File Processing (For example: Encoding, missing values and so on)
+3. Upload the processed data to Celonis and show how the upload process
+can be automated.
+4. Adding what you think is necessary from a logging standpoint for a
+customer to be able to troubleshoot the script if/when necessary.
+● Your solution can be scripted in any language (though we recommend python). It

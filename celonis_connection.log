@@ -1,0 +1,162 @@
+2024-07-21 20:53:34,923 - INFO - HTTP Request: GET https://pypi.celonis.cloud/pycelonis/ "HTTP/1.1 200 OK"
+2024-07-21 20:53:35,330 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 401 Unauthorized"
+2024-07-21 20:53:35,331 - ERROR - Couldn't connect to Celonis EMS https://51cdv7o2-2024-07-16.training.celonis.cloud.
+Please check if you set the correct 'key_type' and the token is valid. To learn more about setting up your Application Key correctly, check out https://51cdv7o2-2024-07-16.training.celonis.cloud/help/display/CIBC/Application+Keys.
+2024-07-21 20:53:35,466 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud/permissions "HTTP/1.1 401 Unauthorized"
+2024-07-21 20:54:07,145 - INFO - HTTP Request: GET https://pypi.celonis.cloud/pycelonis/ "HTTP/1.1 200 OK"
+2024-07-21 20:54:07,672 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud "HTTP/1.1 200 OK"
+2024-07-21 20:54:07,673 - INFO - Initial connect successful! PyCelonis Version: 2.9.0
+2024-07-21 20:54:08,056 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/cloud/permissions "HTTP/1.1 200 OK"
+2024-07-21 20:54:08,061 - INFO - `task-mining` permissions: ['EDIT_CLIENT_SETTINGS', 'EDIT_USERS']
+2024-07-21 20:54:08,061 - INFO - `team` permissions: []
+2024-07-21 20:54:08,061 - INFO - `transformation-center` permissions: ['MOVE_TO', 'EDIT_OBJECTIVE', 'VIEW_OBJECTIVE', 'CREATE_OBJECTIVE', 'MANAGE_PERMISSIONS', 'CREATE_KPI', 'EXPORT_CONTENT', 'DELETE_OBJECTIVE']
+2024-07-21 20:54:08,061 - INFO - `storage-manager` permissions: ['DELETE', 'CREATE', 'GET', 'ADMIN', 'LIST']
+2024-07-21 20:54:08,061 - INFO - `event-collection` permissions: ['EDIT_ALL_DATA_POOLS_RESTRICTED', 'USE_ALL_DATA_MODELS', 'VIEW_ALL_DATA_POOLS', 'CREATE_DATA_POOL', 'EDIT_ALL_DATA_POOLS']
+2024-07-21 20:54:08,061 - INFO - `ml-workbench` permissions: ['DELETE_SCHEDULERS', 'EDIT_SCHEDULERS', 'USE_ALL_SCHEDULERS', 'CREATE_APPS', 'USE_ALL_APPS', 'CREATE_SCHEDULERS', 'MANAGE_ALL_APPS', 'CREATE_WORKSPACES', 'MANAGE_ALL_WORKSPACES', 'MANAGE_SCHEDULERS_PERMISSIONS', 'VIEW_CONFIGURATION']
+2024-07-21 20:54:08,061 - INFO - `package-manager` permissions: ['EDIT_ALL_SPACES', 'MANAGE_PERMISSIONS', 'CREATE_SPACE', 'DELETE_ALL_SPACES']
+2024-07-21 20:54:08,061 - INFO - `transformation-hub` permissions: []
+2024-07-21 20:54:08,061 - INFO - `compute-live` permissions: []
+2024-07-21 20:54:08,061 - INFO - `action-engine` permissions: []
+2024-07-21 20:54:08,061 - INFO - `process-repository` permissions: ['CREATE_AND_MODIFY_CATEGORIES', 'USE_CATEGORIES', 'DELETE_EXISTING_CATEGORIES', 'MODIFY_EXISTING_CATEGORIES']
+2024-07-21 20:54:08,061 - INFO - `user-provisioning` permissions: []
+2024-07-21 20:54:08,062 - INFO - `workflows` permissions: ['EDIT_AGENTS', 'VIEW_AGENTS', 'REGISTER_AGENTS', 'MANAGE_PERMISSIONS']
+2024-07-21 20:54:08,322 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/api/team "HTTP/1.1 200 OK"
+2024-07-21 20:54:08,470 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools "HTTP/1.1 200 OK"
+2024-07-21 20:54:08,477 - INFO - Found existing data pool: test1
+2024-07-21 20:54:08,478 - INFO - Table schema for CleanedData:
+2024-07-21 20:54:08,478 - INFO - - MANDT: object
+2024-07-21 20:54:08,478 - INFO - - QMNUM: object
+2024-07-21 20:54:08,478 - INFO - - QMART: object
+2024-07-21 20:54:08,478 - INFO - - QMTXT: object
+2024-07-21 20:54:08,478 - INFO - - ARTPR: object
+2024-07-21 20:54:08,478 - INFO - - PRIOK: object
+2024-07-21 20:54:08,478 - INFO - - ERNAM: object
+2024-07-21 20:54:08,479 - INFO - - ERDAT: object
+2024-07-21 20:54:08,479 - INFO - - AENAM: object
+2024-07-21 20:54:08,479 - INFO - - AEDAT: object
+2024-07-21 20:54:08,479 - INFO - - MZEIT: object
+2024-07-21 20:54:08,479 - INFO - - QMDAT: object
+2024-07-21 20:54:08,479 - INFO - - QMNAM: object
+2024-07-21 20:54:08,479 - INFO - - STRMN: object
+2024-07-21 20:54:08,479 - INFO - - STRUR: object
+2024-07-21 20:54:08,479 - INFO - - LTRMN: object
+2024-07-21 20:54:08,479 - INFO - - LTRUR: object
+2024-07-21 20:54:08,479 - INFO - - WAERS: object
+2024-07-21 20:54:08,479 - INFO - - AUFNR: object
+2024-07-21 20:54:08,479 - INFO - - VERID: object
+2024-07-21 20:54:12,200 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-21 20:54:16,515 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/pools/72b14ed8-f3ca-4326-88ee-47aca61d60eb/tables "HTTP/1.1 200 OK"
+2024-07-21 20:54:16,708 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/ "HTTP/1.1 200 OK"
+2024-07-21 20:54:16,710 - INFO - Successfully created data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
+2024-07-21 20:54:16,711 - INFO - Add data frame as file chunks to data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
+2024-07-21 20:54:17,234 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2/chunks/upserted "HTTP/1.1 200 OK"
+2024-07-21 20:54:17,234 - INFO - Successfully upserted file chunk to data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
+2024-07-21 20:54:17,387 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:17,666 - INFO - HTTP Request: POST https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:17,667 - INFO - Successfully triggered execution for data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
+2024-07-21 20:54:17,668 - INFO - Wait for execution of data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
+2024-07-21 20:54:17,804 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:18,067 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:18,513 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:19,555 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:21,702 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:23,852 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:25,991 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:28,143 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:30,295 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:32,447 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:34,604 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:36,750 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:39,050 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:41,205 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:43,356 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:45,507 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:47,654 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:49,792 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:51,955 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:54,102 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:56,266 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:54:58,418 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:00,651 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:02,850 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:04,993 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:07,138 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:09,297 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:11,600 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:13,762 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:15,913 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:18,186 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:20,341 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:22,485 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:24,646 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:26,810 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:28,958 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:31,137 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:33,282 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:35,445 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:37,610 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:39,769 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:41,917 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:44,068 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:46,225 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:48,365 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:50,515 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:52,797 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:54,944 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:57,096 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:55:59,243 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:01,382 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:03,530 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:05,684 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:07,842 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:10,008 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:12,297 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:14,436 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:16,578 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:18,724 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:20,863 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:23,022 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:25,185 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:27,327 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:29,515 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:31,657 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:33,798 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:36,089 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:38,240 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:40,394 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:42,527 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:44,793 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:46,957 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:49,099 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:51,249 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:53,554 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:55,698 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:56:57,853 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:00,144 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:02,290 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:04,441 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:06,606 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:08,745 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:11,055 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:13,197 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:15,353 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:17,512 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:19,661 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:21,821 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:23,973 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:26,262 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:28,402 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:30,542 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:32,683 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:34,845 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:37,001 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:39,163 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:41,312 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:43,450 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:45,595 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:47,735 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:49,885 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:52,031 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:54,158 - INFO - HTTP Request: GET https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:55,516 - INFO - HTTP Request: DELETE https://51cdv7o2-2024-07-16.training.celonis.cloud/integration/api/v1/data-push/72b14ed8-f3ca-4326-88ee-47aca61d60eb/jobs/44373417-b683-46e0-9e88-57853e028cf2 "HTTP/1.1 200 OK"
+2024-07-21 20:57:55,517 - INFO - Successfully deleted data push job with id '44373417-b683-46e0-9e88-57853e028cf2'
